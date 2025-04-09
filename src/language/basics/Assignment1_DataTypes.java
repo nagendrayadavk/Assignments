@@ -52,8 +52,8 @@ public class Assignment1_DataTypes {
 		short currentYear = 2023;
 		System.out.println("Current year: "+currentYear);
 		
-		//11.Number of followers on a social media platform: 1,000,000 (DataType is int)
-		int numOfFollowers = 1000000;
+		//11.Number of followers on a social media platform: 1,000,000 (DataType is String)
+		String numOfFollowers = "1,000,000";
 		System.out.println("Number of followers on a social media platform: "+numOfFollowers);
 		
 		// 12.Rating of a movie: 7.5 (DataType is float)
