@@ -1,4 +1,4 @@
-package language.basics;
+package assignments;
 
 public class Assignment1_DataTypes {
 
@@ -99,3 +99,4 @@ public class Assignment1_DataTypes {
 	}
 
 }
+
