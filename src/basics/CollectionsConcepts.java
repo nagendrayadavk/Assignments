@@ -24,9 +24,9 @@ public class CollectionsConcepts {
 		/**** Challenges with Arrays ****/
 
 		String [] empNames = new String[3]; // This can hold 3 employee names.
-		empNames[0] = "Bharath";
-		empNames[1] = "Meghana";
-		empNames[2] = "Deepika";
+		empNames[0] = "Nagendra";
+		empNames[1] = "Lakshmi";
+		empNames[2] = "Prasanna";
 		
 		System.out.println(empNames.length);	
 
@@ -98,14 +98,14 @@ public class CollectionsConcepts {
 		// ArrayList will store values in contiguous memory locations like array
 		
 		List<String> empNamesArrayList = new ArrayList<String>();
-		empNamesArrayList.add("Bharath");
-		empNamesArrayList.add("Aishwarya");
-		empNamesArrayList.add("Asokan");
-		empNamesArrayList.add("Anu");
-		empNamesArrayList.add("Ashwini");
-		empNamesArrayList.add("Bala");
+		empNamesArrayList.add("Nagendra");
+		empNamesArrayList.add("Lakshmi Prsanna");
+		empNamesArrayList.add("Kethan");
+		empNamesArrayList.add("Megha");
+		empNamesArrayList.add("Disha");
+		empNamesArrayList.add("Manu");
 		empNamesArrayList.add("ABC");
-		empNamesArrayList.add("Bharath");
+		empNamesArrayList.add("Nagendra");
 		empNamesArrayList.add(null);
 		empNamesArrayList.remove("ABC");
 		System.out.println("Size of the ArrayList is :"+empNamesArrayList.size());
@@ -128,14 +128,14 @@ public class CollectionsConcepts {
 		// Storing Nulls :Allowed
 		
 		List<String> empNamesLinkedList = new LinkedList<String>();
-		empNamesLinkedList.add("Bharath");
-		empNamesLinkedList.add("Aishwarya");
-		empNamesLinkedList.add("Asokan");
-		empNamesLinkedList.add("Anu");
-		empNamesLinkedList.add("Ashwini");
-		empNamesLinkedList.add("Bala");
+		empNamesLinkedList.add("Nagendra");
+		empNamesLinkedList.add("Lakshmi Prasanna");
+		empNamesLinkedList.add("Kethan");
+		empNamesLinkedList.add("Megha");
+		empNamesLinkedList.add("Disha");
+		empNamesLinkedList.add("Manu");
 		empNamesLinkedList.add("ABC");
-		empNamesLinkedList.add("Bharath");
+		empNamesLinkedList.add("Nagendra");
 		empNamesLinkedList.add(null);
 		empNamesLinkedList.remove("ABC");
 		System.out.println("Size of the LinkedList is :"+empNamesLinkedList.size());
@@ -158,14 +158,14 @@ public class CollectionsConcepts {
 		// Storing Nulls :Allowed
 		
 		Set<String> empNamesHashSet = new HashSet<String>();
-		empNamesHashSet.add("Bharath");
-		empNamesHashSet.add("Aishwarya");
-		empNamesHashSet.add("Asokan");
-		empNamesHashSet.add("Anu");
-		empNamesHashSet.add("Ashwini");
-		empNamesHashSet.add("Bala");
+		empNamesHashSet.add("Nagendra");
+		empNamesHashSet.add("Lakshmi Prasanna");
+		empNamesHashSet.add("Kethan");
+		empNamesHashSet.add("Megha");
+		empNamesHashSet.add("Disha");
+		empNamesHashSet.add("Manu");
 		empNamesHashSet.add("ABC");
-		empNamesHashSet.add("Bharath");
+		empNamesHashSet.add("Nagendra");
 		empNamesHashSet.add(null);
 		empNamesHashSet.remove("ABC");
 		System.out.println("Size of the HashSet is :"+empNamesHashSet.size());
@@ -187,17 +187,17 @@ public class CollectionsConcepts {
 		// Storing Nulls :Allowed
 		
 		Set<String> empNamesLinkedHashSet = new LinkedHashSet<String>();
-		empNamesLinkedHashSet.add("Bharath");
-		empNamesLinkedHashSet.add("Aishwarya");
-		empNamesLinkedHashSet.add("Asokan");
-		empNamesLinkedHashSet.add("Anu");
-		empNamesLinkedHashSet.add("Ashwini");
-		empNamesLinkedHashSet.add("Bala");
+		empNamesLinkedHashSet.add("Nagendra");
+		empNamesLinkedHashSet.add("Lakshmi Prasanna");
+		empNamesLinkedHashSet.add("Kethan");
+		empNamesLinkedHashSet.add("Megha");
+		empNamesLinkedHashSet.add("Disha");
+		empNamesLinkedHashSet.add("Manu");
 		empNamesLinkedHashSet.add("ABC");
-		empNamesLinkedHashSet.add("Bharath");
+		empNamesLinkedHashSet.add("Nagendra");
 		empNamesLinkedHashSet.add(null);
 		empNamesLinkedHashSet.remove("ABC");
-		System.out.println("Size of the LinkedHashSet is :"+empNamesLinkedHashSet.size());
+		System.out.println("Size of the HashSet is :"+empNamesLinkedHashSet.size());
 		System.out.println(empNamesLinkedHashSet);
 		
 		System.out.println("************************  TreeSet  *************************");		
@@ -214,14 +214,14 @@ public class CollectionsConcepts {
 		// Storing Nulls :Not Allowed
 		
 		Set<String> empNamesTreeSet = new TreeSet<String>();
-		empNamesTreeSet.add("Bharath");
-		empNamesTreeSet.add("Aishwarya");
-		empNamesTreeSet.add("Asokan");
-		empNamesTreeSet.add("Anu");
-		empNamesTreeSet.add("Ashwini");
-		empNamesTreeSet.add("Bala");
+		empNamesTreeSet.add("Nagendra");
+		empNamesTreeSet.add("Lakshmi Prasanna");
+		empNamesTreeSet.add("Megha");
+		empNamesTreeSet.add("Kethan");
+		empNamesTreeSet.add("Manu");
+		empNamesTreeSet.add("Disha");
 		empNamesTreeSet.add("ABC");
-		empNamesTreeSet.add("Bharath");
+		empNamesTreeSet.add("Nagendra");
 //		empNamesTreeSet.add(null);
 		empNamesTreeSet.remove("ABC");
 		System.out.println("Size of the TreeSet is :"+empNamesTreeSet.size());
@@ -243,17 +243,20 @@ public class CollectionsConcepts {
 		// Storing Nulls :Null Values Allowed ,Null Keys Allowed
 		
 		Map<String,Integer> empNamesHashMap = new HashMap<String,Integer>();
-		empNamesHashMap.put("Bharath",123);
-		empNamesHashMap.put("Aishwarya",124);
-		empNamesHashMap.put("Asokan",124);
-		empNamesHashMap.put("Anu",125);
-		empNamesHashMap.put("Ashwini",126);
-		empNamesHashMap.put("Bala",127);
-		empNamesHashMap.put("ABC",128);
-		empNamesHashMap.put("Bharath",129);
-		empNamesHashMap.put("Bhanu",null);
-		empNamesHashMap.put(null,131);
-		empNamesHashMap.remove("ABC");
+		//- Creates a HashMap named empNamesHashMap.
+		//- Uses String as the key type (employee names).
+		//- Uses Integer as the value type (employee ID numbers).
+		//- The HashMap allows fast key-based access.
+		empNamesHashMap.put("Nagendra", 123); // .put() adds key-value pairs to the HashMap
+		empNamesHashMap.put("Lakshmi Prasanna", 124);
+		empNamesHashMap.put("Kethan", 124);
+		empNamesHashMap.put("Manu", 125);
+		empNamesHashMap.put("Megha", 126);
+		empNamesHashMap.put("Disha", 127);
+		empNamesHashMap.put("ABC", 128);
+		empNamesHashMap.put("Nagendra", 129); // Overwrites previous value for "Nagendra" 
+		empNamesHashMap.put("Subbu", null);   // Stores key "Subbu" with a null value
+		empNamesHashMap.put(null, 131);       // Stores a null key with value 131
 		System.out.println("Size of the HashMap is :"+empNamesHashMap.size());
 		System.out.println(empNamesHashMap);
 		
@@ -273,15 +276,15 @@ public class CollectionsConcepts {
 		// Storing Nulls :Null Values Allowed ,Null Keys Allowed
 		
 		Map<String,Integer> empNamesLinkedHashMap = new LinkedHashMap<String,Integer>();
-		empNamesLinkedHashMap.put("Bharath",123);
-		empNamesLinkedHashMap.put("Aishwarya",124);
-		empNamesLinkedHashMap.put("Asokan",124);
-		empNamesLinkedHashMap.put("Anu",125);
-		empNamesLinkedHashMap.put("Ashwini",126);
-		empNamesLinkedHashMap.put("Bala",127);
+		empNamesLinkedHashMap.put("Nagendra",123);
+		empNamesLinkedHashMap.put("Lakshmi Prasanna",124);
+		empNamesLinkedHashMap.put("Manu",124);
+		empNamesLinkedHashMap.put("Kethan",125);
+		empNamesLinkedHashMap.put("Megha",126);
+		empNamesLinkedHashMap.put("Disha",127);
 		empNamesLinkedHashMap.put("ABC",128);
 		empNamesLinkedHashMap.put("Bharath",129);
-		empNamesLinkedHashMap.put("Bhanu",null);
+		empNamesLinkedHashMap.put("Subbu",null);
 		empNamesLinkedHashMap.put(null,131);
 		empNamesLinkedHashMap.remove("ABC");
 		System.out.println("Size of the LinkedHashMap is :"+empNamesLinkedHashMap.size());
@@ -303,15 +306,15 @@ public class CollectionsConcepts {
 		// Storing Nulls :Null Values Allowed ,Null Keys Not Allowed
 		
 		Map<String,Integer> empNamesTreeMap = new TreeMap<String,Integer>();
-		empNamesTreeMap.put("Bharath",123);
-		empNamesTreeMap.put("Aishwarya",124);
-		empNamesTreeMap.put("Asokan",124);
-		empNamesTreeMap.put("Anu",125);
-		empNamesTreeMap.put("Ashwini",126);
-		empNamesTreeMap.put("Bala",127);
+		empNamesTreeMap.put("Nagendra",123);
+		empNamesTreeMap.put("Lakshmi Prasanna",124);
+		empNamesTreeMap.put("Manu",124);
+		empNamesTreeMap.put("kethan",125);
+		empNamesTreeMap.put("Megha",126);
+		empNamesTreeMap.put("kethan",127);
 		empNamesTreeMap.put("ABC",128);
-		empNamesTreeMap.put("Bharath",129);
-		empNamesTreeMap.put("Bhanu",null);
+		empNamesTreeMap.put("Nagendra",129);
+		empNamesTreeMap.put("Subbu",null);
 //		empNamesTreeMap.put(null,131);
 		empNamesTreeMap.remove("ABC");
 		System.out.println("Size of the TreeMap is :"+empNamesTreeMap.size());
@@ -333,20 +336,20 @@ public class CollectionsConcepts {
 		// Storing Nulls :Null Values Not Allowed ,Null Keys Not Allowed
 		
 		Map<String,Integer> empNamesHashtable = new Hashtable<String,Integer>();
-		empNamesHashtable.put("Bharath",123);
-		empNamesHashtable.put("Aishwarya",124);
-		empNamesHashtable.put("Asokan",124);
-		empNamesHashtable.put("Anu",125);
-		empNamesHashtable.put("Ashwini",126);
-		empNamesHashtable.put("Bala",127);
+		empNamesHashtable.put("Nagendra",123);
+		empNamesHashtable.put("Lakshmi Prasanna",124);
+		empNamesHashtable.put("Manu",124);
+		empNamesHashtable.put("Kethan",125);
+		empNamesHashtable.put("Megha",126);
+		empNamesHashtable.put("Disha",127);
 		empNamesHashtable.put("ABC",128);
-		empNamesHashtable.put("Bharath",129);
+		empNamesHashtable.put("Nagendra",129);
 //		empNamesHashtable.put("Bhanu",null);
 //		empNamesHashtable.put(null,131);
 		empNamesHashtable.remove("ABC");
 		System.out.println("Size of the Hashtable is :"+empNamesHashtable.size());
 		System.out.println(empNamesHashtable);
-		System.out.println(empNamesHashtable.get("Bharath"));
+		System.out.println(empNamesHashtable.get("Nagendra"));
 		
 		
 //		List<String> List1 = new ArrayList<String>();
