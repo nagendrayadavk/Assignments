@@ -4,36 +4,31 @@ public class RulesOfIdentifiers {
 
 	public static void main(String[] args) {
 		
-		String name = "Lakshmi Nagendra";
-		
-		/******* RULES  ******/
+		String name = "Bharath Reddy";
 		
 		//1. The variable/Identifier should not be same as java reserved keywords
-		// String long = "Lakshmi Nagendra";
+		//String boolean = "Bharath Reddy";
 		
 		//2. The variable/Identifier should not be same as java literals (true, false, null)
-		// String true ="Lakshmi Nagendra";
+		//String true = "Bharath Reddy";
 		
 		//3. The variable/Identifier should not contain white space
-		// String Emp Name = "Lakshmi Nagendra";
-
-		//4. The variable/Identifier should not starts with number
-		// String 1name = "Lakshmi Nagendra";
+		//String my Name = "Bharath Reddy";
 		
-		//5. The variable/Identifier should not contain special chars
-		// String emp@name = "Lakshmi Nagendra";
+		//4. The variable/Identifier should not starts with number
+		//String 1name = "Bharath Reddy";
+		
+		//5. The variable/Identifier should not contain special chars (except _, $)
+		//String my#name = "Bharath Reddy";
 		
 		//6. The variable/Identifier should be unique always
-		//String name = "Lakshmi Prasanna";
+		//String name = "Harini Reddy";
 		
-		/***** STANDARDS  ********/
-		
-		//7. The variable/Identifier should starts with lower case when we are creating package, variable, method and it should starts with upper case when we are creating class
-		String empName = "Nag";
+		//7. The variable/Identifier should starts with lower case when we are creating package, variable, method and it should starts with upper case when we are creating class followed by camel casing
+		String myNameIs = "Bharath Reddy";
 		
 		//8. The variable/Identifier should be meaningful and should have atleast 3 chars and should not cross 15 chars length
-		int carNumber = 3344;
-		
+		int carNumber = 2255;
 	}
 
 }
