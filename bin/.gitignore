@@ -14,8 +14,13 @@
 /loopStatements/
 /loops/
 /methodsInJava/
-/nonAccess/
 /operators/
 /staticNonAccessModifiers/
 /variables/
+/exception/
+/finalPack/
+/nonAccess/
+/polymorphism/
 /staticConcepts/
+/stringOperations/
+/synchronizedNonAccessModifier/
