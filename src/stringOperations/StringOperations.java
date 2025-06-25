@@ -19,7 +19,7 @@ public class StringOperations {
 		for(int i=value.length()-1;i>=0;i--) {
 			reverseString=reverseString+value.charAt(i);
 		}
-		System.out.println(reverseString);
+		System.out.println("Reverse the String : "+reverseString);
 		
 		//Remove unwanted spaces from the String ==> String.trim();
 		System.out.println("Normal Value:"+value);
